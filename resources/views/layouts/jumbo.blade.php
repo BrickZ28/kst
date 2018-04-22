@@ -1,6 +1,6 @@
-<div class="position-relative overflow-hidden  text-center pt-2"  style="color: #1b1e21">
+<div class="position-relative overflow-hidden  text-center "  style="color: #1b1e21">
     <div class="front-box rounded">
-        <div class="col-md-5 p-lg-5 mx-auto my-5" >
+        <div class="col-md-5 p-lg-5 mx-auto " >
             <img src="/img/site/kstLogoXpar.png" alt="">
             <div class="container img-text">
                 <p class="lead font-weight-normal logo-font" style="color: #f9f9fc">The BEST

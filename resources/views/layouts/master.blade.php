@@ -8,10 +8,10 @@
 
         @yield('content')
 
-        @include('layouts.sidebar')
+        {{--@include('layouts.sidebar')--}}
     </div>
 </div>
-<div class="container img-text">
+<div class="container-fluid img-text">
     <p class="lead font-weight-normal logo-font" style="color: #f9f9fc">What our customers are saying</p>
 </div>
 
@@ -25,4 +25,6 @@
 </div>
 </main>
 @include('layouts.footer')
+
 </body>
+

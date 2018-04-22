@@ -11,6 +11,15 @@ body {
   background-color: #281d5f;
   margin-bottom: .25em;
   margin-bottom: 0;
+  opacity: .9;
+}
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .nav-link {
+  color:#555;
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
