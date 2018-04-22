@@ -1,10 +1,10 @@
 <nav class="navbar navbar-expand-md fixed-top nav-bg navbar-custom">
     <a class="navbar-brand" href="#">
         Knuths
-    </a>
-    <a class="navbar-brand " href="#">
         <span style="font-family: 'Love Ya Like A Sister', cursive">Sweet Treats</span>
     </a>
+
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>

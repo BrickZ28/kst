@@ -12,7 +12,7 @@
     </div>
 </div>
 <div class="container img-text">
-    <p class="lead font-weight-normal logo-font" style="color: #f9f9fc">What are customers are saying</p>
+    <p class="lead font-weight-normal logo-font" style="color: #f9f9fc">What our customers are saying</p>
 </div>
 
 </div>
