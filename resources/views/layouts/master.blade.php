@@ -11,9 +11,9 @@
         {{--@include('layouts.sidebar')--}}
     </div>
 </div>
-<div class="container-fluid img-text">
-    <p class="lead font-weight-normal logo-font" style="color: #f9f9fc">What our customers are saying</p>
-</div>
+    <div class="hr-seperater">
+        <span class="align-middle font-weight-bold slideLeft">What our customers are saying</span>
+    </div>
 
 </div>
 <div class="bot-img mt-4">

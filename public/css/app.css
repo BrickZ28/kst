@@ -9994,6 +9994,38 @@ a.text-dark:focus {
   }
 }
 
+.hr-seperater {
+  /* Apply animation to this element */
+  -webkit-animation: hr-seperater 5s ease-out;
+          animation: hr-seperater 5s ease-out;
+}
+
+/* Move it (define the animation) */
+
+@-webkit-keyframes hr-seperater {
+  0% {
+    -webkit-transform: translateX(200%);
+            transform: translateX(200%);
+  }
+
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes hr-seperater {
+  0% {
+    -webkit-transform: translateX(200%);
+            transform: translateX(200%);
+  }
+
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
 body {
   background: #258ec7;
 }
@@ -10005,16 +10037,6 @@ body {
   margin-bottom: .25em;
   margin-bottom: 0;
   opacity: .9;
-}
-
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  -webkit-transition: background-color 200ms linear;
-  transition: background-color 200ms linear;
-}
-
-.navbar-fixed-top.scrolled .nav-link {
-  color: #555;
 }
 
 /* change the brand and text color */
@@ -10076,8 +10098,14 @@ body {
   font-family: 'Love Ya Like A Sister', cursive;
 }
 
-.img-text {
-  background: rgba(0, 0, 0, 0.5);
+.hr-seperater {
+  background: #6f42c1;
+  line-height: 100px;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  font-size: 2em;
+  vertical-align: center;
+  border-radius: 25px;
 }
 
 .logo-font {

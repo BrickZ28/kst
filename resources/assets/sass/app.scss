@@ -1,30 +1,29 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+//vars
+@import "variables";
+
+//animations
+@import "animations";
+
 //body
 body {
-  background: #258ec7;
+  background: $blue-theme;
 }
 
 /* change the background color */
 .navbar-custom {
-  background-color: #281d5f;
+  background-color: $purple-theme;
   margin-bottom: .25em;
   margin-bottom: 0;
   opacity: .9;
 }
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
-}
 
-.navbar-fixed-top.scrolled .nav-link {
-  color:#555;
-}
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-  color: #f3d422;
+  color: $yellow-theme;
   font-family: 'Great Vibes', cursive;
 }
 .navbar-custom .navbar-toggler-icon {
@@ -33,12 +32,12 @@ body {
 
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-  color: #f3d422;
+  color: $yellow-theme;
 }
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-  color: #f66c21;
+  color: $orange-theme;
 }
 
 .front-box{
@@ -50,33 +49,39 @@ body {
 }
 
 .blog-sidebar{
-  background-color: #06a73d;
+  background-color: $green-theme;
 }
 
 .blog-sidebar a:link {
-  color: #f3d422;
+  color: $yellow-theme;
 }
 
 .blog-sidebar a:hover {
-  color: #f66c21;
+  color: $orange-theme;
 }
 
 .card .card-header {
-  background-color: #281d5f;
+  background-color: $purple-theme;
   border-color: transparent;
-  color: #f3d422;
+  color: $yellow-theme;
   font-family: 'Great Vibes', cursive;
 }
 
 .card .card-body{
   background-color: #b4e5f6;
   border-color: transparent;
-  color: #e42421;
+  color: $red-theme;
   font-family: 'Love Ya Like A Sister', cursive;
 }
 
-.img-text{
-  background: rgba(0, 0, 0, 0.5);
+.hr-seperater{
+  background: #6f42c1;
+  line-height: 100px;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  font-size: 2em;
+  vertical-align: center;
+  border-radius: 25px;
 }
 
 .logo-font{
@@ -108,5 +113,7 @@ footer a{
 footer a:hover{
   color: #e42421;
 }
+
+
 
 

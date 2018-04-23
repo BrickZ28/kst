@@ -1,0 +1,14 @@
+.hr-seperater{
+
+  /* Apply animation to this element */
+  animation: hr-seperater 5s ease-out;
+}
+/* Move it (define the animation) */
+@keyframes hr-seperater {
+  0%   {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
