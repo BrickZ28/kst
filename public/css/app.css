@@ -10028,6 +10028,7 @@ a.text-dark:focus {
 
 body {
   background: #258ec7;
+  color: #f3d422;
 }
 
 /* change the background color */
@@ -10144,5 +10145,15 @@ footer a {
 
 footer a:hover {
   color: #e42421;
+}
+
+.quote {
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: 'Courgette', cursive;
+}
+
+.blockquote-footer {
+  color: #281d5f;
 }
 
