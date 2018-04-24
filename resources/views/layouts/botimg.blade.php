@@ -1,4 +1,4 @@
-<div class="container" style="margin-bottom: 5em">
+<div class="container" style="margin-bottom: 10em">
 <div class="row">
     <div class="col-lg-4">
         <img class="rounded-circle" src="/img/site/kstLogoXpar.png" alt="Generic placeholder image" width="140" height="140">
