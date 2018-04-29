@@ -55,4 +55,6 @@
 
         </div>
     </div>
+
+    @include('layouts.customer')
 @endsection
