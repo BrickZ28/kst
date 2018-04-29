@@ -1,4 +1,4 @@
-<div class="hr-seperater">
+<div class="hr-seperater hr-animation">
     <span class="align-middle font-weight-bold slideLeft">What our customers are saying</span>
 </div>
 
