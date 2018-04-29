@@ -10027,8 +10027,9 @@ a.text-dark:focus {
 }
 
 body {
-  background: #258ec7;
+  background: url("/img/site/BG-texture.png");
   color: #f3d422;
+  background-attachment: fixed;
 }
 
 /* change the background color */

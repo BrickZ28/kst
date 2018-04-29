@@ -9,8 +9,9 @@
 
 //body
 body {
-  background: $blue-theme;
+  background: url("/img/site/BG-texture.png");
   color: $yellow-theme;
+  background-attachment: fixed;
 }
 
 /* change the background color */
