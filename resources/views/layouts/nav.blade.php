@@ -11,14 +11,14 @@
 
     <div class="collapse navbar-collapse navbar-custom" id="navbarsExampleDefault">
         <ul class="navbar-nav ml-auto ">
-            <li class="nav-item active">
+            <li class="nav-item {{ Request::is('/') ? 'active' : '' }}">
                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/about">About us</a>
+            <li class="nav-item {{ Request::is('about') ? 'active' : '' }}">
+                <a class="nav-link " href="/about">About us</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Contact</a>
+            <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}">
+                <a class="nav-link" href="/contact">Contact</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown"
