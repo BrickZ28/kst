@@ -7,6 +7,7 @@
 //animations
 @import "animations";
 
+
 //body
 body {
   background: url("/img/site/BG-texture.png");
@@ -127,8 +128,19 @@ footer a:hover{
   color: $purple-theme;
 }
 
+.container-admin{
+  margin-top: 57px;
+}
 
-
+/* change the link color */
+.sidebar-admin .navbar-nav .nav-link {
+  color: $yellow-theme;
+}
+/* change the color of active or hovered links */
+.sidebar-admin .nav-item.active .nav-link,
+.sidebar-admin .nav-item:hover .nav-link {
+  color: $orange-theme;
+}
 
 
 

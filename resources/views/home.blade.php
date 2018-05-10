@@ -9,9 +9,10 @@
                 <div class="card text-center">
                     <div class="card-header">Pices</div>
                     <div class="card-body">
-                        <h5 class="card-title">Sno-Kones</h5>
-                        <p class="card-text">Small - $1.00</p>
-                        <p class="card-text">Large - $2.00</p>
+                        @foreach($products as $product)
+                            <h5 class="card-title">{{$product->name.' - '.$product->size}}</h5>
+                            <p class="card-text">${{$product->price}}</p>
+                        @endforeach
                     </div>
                 </div>
             </div>

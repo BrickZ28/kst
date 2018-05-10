@@ -14,7 +14,11 @@
 Route::get('/', 'ProductController@index');
 
 Route::get('/about', function () {
-    return view('about');
+        return view('about');
+});
+
+Route::get('/admin', function () {
+    return view('admin.admin');
 });
 
 Route::get('/contact', function () {
@@ -24,4 +28,7 @@ Route::get('/contact', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/prices', 'HomeController@index')->name('prices');
+Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
+
+

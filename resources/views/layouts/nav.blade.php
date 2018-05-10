@@ -20,9 +20,17 @@
             <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}">
                 <a class="nav-link" href="/contact">Contact</a>
             </li>
-            <li class="nav-item {{ Request::is('login') ? 'active' : '' }}">
-                <a class="nav-link" href="/login" >Admin</a>
-            </li>
+            @if (!Auth::check())
+                <li class="nav-item {{ Request::is('login') ? 'active' : '' }}">
+                    <a class="nav-link" href="/login" >Admin</a>
+                </li>
+            @endif
+
+            @if (Auth::check())
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/logout') }}"> logout </a>
+                </li>
+            @endif
         </ul>
     </div>
 </nav>

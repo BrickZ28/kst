@@ -5,15 +5,19 @@ namespace App\Http\Controllers;
 use App\Product;
 use Illuminate\Http\Request;
 
+
 class ProductController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @return void \Illuminate\Http\Response
+     * @return  \Illuminate\Http\Response
      */
     public function index()
     {
+        $products = Product::orderBy('created_at', 'desc')->get();
+        return view('home')->with('products', $products);
+
         return view('home');
     }
 
