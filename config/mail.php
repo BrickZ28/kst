@@ -16,7 +16,10 @@ return [
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'smtp'),
+    'mailgun' => [
+        'domain' => 'kst.bricksys.us',
+        'secret' => 'key-9cce5727f5bf9870651810241201b76e',
+    ],
 
     /*
     |--------------------------------------------------------------------------
