@@ -41,6 +41,13 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+$app->register(App\Providers\AppServiceProvider::class);
+$app->register(Illuminate\Mail\MailServiceProvider::class);
+
+$app->configure('services');
+
+$app->configure('mail');
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application
