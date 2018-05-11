@@ -21,9 +21,13 @@ Route::get('/admin', function () {
     return view('admin.admin');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+Route::get('/contact', [
+    'uses' => 'ContactMessageController@create'
+]);
+Route::post('/contact', [
+    'uses'  => 'ContactMessageController@store',
+    'as'    => 'contact.store'
+]);
 
 
 Auth::routes();
