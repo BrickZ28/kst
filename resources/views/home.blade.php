@@ -5,7 +5,7 @@
 
     <div class="container mb-4 mt-4">
         <div class="row">
-            <div class="col-sm-3 mb-2">
+            <div class="col-md-3 mb-2">
                 <div class="card text-center">
                     <div class="card-header">Prices</div>
                     <div class="card-body">
@@ -16,7 +16,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3 mb-2">
+            <div class="col-md-3 mb-2">
                 <div class="card text-center">
                     <div class="card-header">Private Events</div>
                     <div class="card-body">
@@ -25,7 +25,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3 mb-2">
+            <div class="col-md-3 mb-2">
                 <div class="card text-center">
                     <div class="card-header">Fun For All</div>
                     <div class="card-body">
@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-md-3">
                 <aside>
                     <div class="blog-sidebar rounded">
                         <h4 class="font-italic">Upcoming Events</h4>
