@@ -36,24 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <aside>
-                    <div class="blog-sidebar rounded">
-                        <h4 class="font-italic">Upcoming Events</h4>
-                        <ol class="list-unstyled">
-                            <li><a href="#">Event One</a></li>
-                            <li><a href="#">Event Two</a></li>
-                            <li><a href="#">Event Three</a></li>
-                        </ol>
-                    </div>
-
-
-                </aside>
-            </div>
-
-
-
-
+            @include('includes.events')
         </div>
     </div>
 

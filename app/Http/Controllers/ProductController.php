@@ -3,22 +3,20 @@
 namespace App\Http\Controllers;
 
 use App\Product;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
-
+use App\Event;
 
 class ProductController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return  \Illuminate\Http\Response
-     */
     public function index()
     {
+        $events = Event::whereDate('date', '>=', Carbon::now('America/Chicago'))->orderBy('date', 'asc')->get();
+        
         $products = Product::orderBy('created_at', 'desc')->get();
-        return view('home')->with('products', $products);
+        return view('home', compact('events', 'products'));
 
-        return view('home');
+
     }
 
     /**

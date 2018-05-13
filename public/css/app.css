@@ -10086,6 +10086,10 @@ body {
   color: #f66c21;
 }
 
+.blog-sidebar a:visited {
+  color: #281d5f;
+}
+
 .card .card-header {
   background-color: #281d5f;
   border-color: transparent;
