@@ -2,7 +2,7 @@
     <div class="front-box rounded">
         <div class="col-md-5 p-lg-5 mx-auto " >
             <img src="/img/site/kstLogoXpar.png" alt="">
-            <div class="container img-text">
+            <div class="container text-img-bg">
                 <p class="lead font-weight-normal logo-font" style="color: #f9f9fc">The BEST
                     <span style="color: #ffe80e">Cotton Candy </span> </br>
                     and </br>

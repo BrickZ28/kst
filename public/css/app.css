@@ -10074,6 +10074,12 @@ body {
   background-position: center center;
 }
 
+.text-img-bg {
+  background-color: rgba(6, 167, 61, 0.35);
+  width: 150px;
+  border-radius: 20px;
+}
+
 .blog-sidebar {
   background-color: #06a73d;
   padding-left: 5px;
