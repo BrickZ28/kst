@@ -53,6 +53,9 @@ body {
 
 .blog-sidebar{
   background-color: $green-theme;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #999999;
 }
 
 .blog-sidebar a:link {
@@ -146,6 +149,10 @@ footer a:hover{
 .sidebar-admin .nav-item:hover .nav-link {
   color: $orange-theme;
 }
+.admin-list{
+  list-style-type: none;
+}
+
 
 
 
