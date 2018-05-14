@@ -10076,6 +10076,9 @@ body {
 
 .blog-sidebar {
   background-color: #06a73d;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #999999;
 }
 
 .blog-sidebar a:link {
@@ -10179,5 +10182,9 @@ footer a:hover {
 .sidebar-admin .nav-item.active .nav-link,
 .sidebar-admin .nav-item:hover .nav-link {
   color: #f66c21;
+}
+
+.admin-list {
+  list-style-type: none;
 }
 

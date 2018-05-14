@@ -27,9 +27,11 @@
             @endif
 
             @if (Auth::check())
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/admin') }}"> Admin Panel </a>
-                </li>
+                @if (Request::is('/'))
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('/admin') }}"> Admin Panel </a>
+                    </li>
+                @endif
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('/logout') }}"> logout </a>
                 </li>
