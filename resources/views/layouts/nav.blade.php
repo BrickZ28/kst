@@ -28,6 +28,9 @@
 
             @if (Auth::check())
                 <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/admin') }}"> Admin Panel </a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="{{ url('/logout') }}"> logout </a>
                 </li>
             @endif
