@@ -18,7 +18,7 @@ Route::get('/about', function () {
 });
 
 Route::get('/admin', function () {
-    return view('admin.admin');
+    return view('admin.layouts.adminhome');
 });
 
 Route::get('/contact', [

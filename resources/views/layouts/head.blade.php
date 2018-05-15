@@ -6,7 +6,7 @@
     <title>{{ config('app.name') }}</title>
     <link rel="stylesheet" href="{{asset('/css/app.css')}}">
 
-
+    {{--Fonts--}}
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Chewy|Fontdiner+Swanky|Love+Ya+Like+A+Sister|Slackey" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">

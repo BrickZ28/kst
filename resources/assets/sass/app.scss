@@ -7,6 +7,8 @@
 //animations
 @import "animations";
 
+//admin
+@import "sb-admin";
 
 //body
 body {
@@ -120,10 +122,10 @@ html {
   font-family: 'Love Ya Like A Sister', cursive;
   color: #f3d422;
 }
-footer a{
+.footer a{
   color: #f66c21;
 }
-footer a:hover{
+.footer a:hover{
   color: #e42421;
 }
 
