@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Event;
 
 class HomeController extends Controller
 {
@@ -23,6 +24,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('admin.prices');
+        $events = Event::orderBy('date', 'asc')->whereDate('date', '>=', date(now()))->limit(5)->get();
+
+         return view('admin.layouts.adminhome')->with('events', $events);
+
     }
 }

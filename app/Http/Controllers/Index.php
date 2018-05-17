@@ -11,7 +11,7 @@ class Index extends Controller
 {
     public function index()
     {
-        $events = Event::whereDate('date', '>=', Carbon::now('America/Chicago'))->orderBy('date', 'asc')->get();
+        $events = Event::whereDate('date', '>=', Carbon::now('America/Chicago'))->orderBy('date', 'asc')->whereDate('date', '>=', date(now()))->get();
 
         $products = Product::orderBy('created_at', 'desc')->get();
         return view('home', compact('events', 'products'));

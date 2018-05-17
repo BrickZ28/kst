@@ -17,9 +17,7 @@ Route::get('/about', function () {
         return view('about');
 });
 
-Route::get('/admin', function () {
-    return view('admin.layouts.adminhome');
-});
+
 
 Route::get('/contact', [
     'uses' => 'ContactMessageController@create'
@@ -34,5 +32,6 @@ Auth::routes();
 
 Route::get('/prices', 'HomeController@index')->name('prices');
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
+Route::get('/admin', 'HomeController@index');
 
 
