@@ -10747,9 +10747,7 @@ body.sidenav-toggled #mainNav.static-top #sidenavToggler i {
 
 .content-wrapper {
   overflow-x: hidden;
-  background: url("/img/site/BG-texture.png");
-
-  background-attachment: fixed;
+  background: white;
 }
 
 @media (min-width: 992px) {
@@ -11066,5 +11064,14 @@ html {
 
 .admin-list {
   list-style-type: none;
+}
+
+.event-alert {
+  color: #e42421;
+}
+
+.content-wrapper {
+  background: url("/img/site/BG-texture.png");
+  background-attachment: fixed;
 }
 

@@ -1,6 +1,6 @@
 <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
     <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="/admin">
             <i class="fas fa-home"></i>
             <span class="nav-link-text">Admin Home</span>
         </a>
@@ -13,16 +13,13 @@
         </a>
         <ul class="sidenav-second-level collapse" id="collapseEvents">
             <li>
-                <a href="navbar.html">View Events</a>
+                <a href="/events/viewall">View Events</a>
             </li>
             <li>
-                <a href="cards.html">Create Event</a>
+                <a href="/events/create">Create Event</a>
             </li>
             <li>
-                <a href="cards.html">Edit Event</a>
-            </li>
-            <li>
-                <a href="cards.html">Cancel Event</a>
+                <a href="/events/lookupEvents">Edit/Cancel Event</a>
             </li>
         </ul>
     </li>

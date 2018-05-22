@@ -29,4 +29,5 @@ class HomeController extends Controller
          return view('admin.layouts.adminhome')->with('events', $events);
 
     }
+
 }

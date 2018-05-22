@@ -157,8 +157,14 @@ html {
 .admin-list{
   list-style-type: none;
 }
+.event-alert{
+  color: $red-theme;
+}
+.content-wrapper {
+  background: url("/img/site/BG-texture.png");
 
-
+  background-attachment: fixed;
+}
 
 
 
