@@ -1,37 +1,31 @@
 @extends('admin.adminmaster')
 
 @section('content')
-    <!-- Icon Cards-->
+    @include('admin.partials.messages')
     <div class="row mt-3">
         <div class="col-sm-12 mb-12" style="overflow-x:auto;">
             <table class="table table-striped table-bordered table-dark table-hover">
                 <thead>
                 <tr>
-                    <th scope="col">Venue</th>
-                    <th scope="col">Date</th>
-                    <th scope="col">Time</th>
-                    <th scope="col">Contact</th>
-                    <th scope="col">Address</th>
-                    <th scope="col">Edit Event</th>
-                    <th scope="col">Cancel Event</th>
+                    <th scope="col">Product name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Edit Product</th>
+                    <th scope="col">Delete Product</th>
                 </tr>
                 </thead>
                 <tbody>
-                @foreach($events as $event)
+                @foreach($products as $product)
                     <tr>
-                        <td>{{$event->venue}}</td>
-                        <td>{{Carbon\Carbon::parse($event->date)->format('D jS M Y')}}</td>
-                        <td>{{Carbon\Carbon::parse($event->time)->format('g:i A')}}</td>
-                        <td>{{$event->contact}}</td>
-                        <td>{{$event->address}}</td>
-                        <td><a href="/events/{{$event->id}}/edit" class="btn
+                        <td>{{$product->name . ' - ' . $product->size}}</td>
+                        <td>{{$product->price}}</td>
+                        <td><a href="/products/{{$product->id}}/edit" class="btn
                         btn-warning">Edit</a></td>
                         <td>
-                            <form action="/events/{{$event->id}}" method="post">
+                            <form action="/products/{{$product->id}}" method="post">
                                 @csrf
                                 <input name="_method" type="hidden" value="DELETE">
                                 <button class="btn btn-danger"  onclick="return confirm('Are you sure you want to ' +
-                                 'remove this event?')"
+                                 'remove this product?')"
                                         type="submit">Delete</button>
                             </form>
                         </td>
@@ -39,7 +33,7 @@
                 @endforeach
                 </tbody>
             </table>
-            {{$events->links()}}
+            {{$products->links()}}
         </div>
 
 

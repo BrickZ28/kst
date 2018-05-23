@@ -37,9 +37,10 @@ Route::get('/events/viewall', 'EventController@viewAll');
 Route::get('/events/lookupEvents', 'EventController@lookupEvents');
 Route::get('/events/search', 'EventController@search');
 Route::resource('events', 'EventController');
-//Route::get('/events/create', 'EventController@create');
-//Route::get('/events/lookup', 'EventController@searchEventsPage');
-//Route::get('/events/edit', 'EventController@edit');
-//Route::get('/events/viewall', 'EventController@viewAll');
+
+Route::get('/products/search', 'ProductController@search');
+Route::get('/products/lookupProducts', 'ProductController@lookupProducts');
+Route::get('/products/viewall', 'ProductController@viewAll');
+Route::resource('products', 'ProductController');
 
 

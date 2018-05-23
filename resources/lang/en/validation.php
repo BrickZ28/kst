@@ -101,8 +101,8 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'price' => [
+            'numeric' => 'Please use standard currency format (0.00) with no $',
         ],
     ],
 

@@ -31,13 +31,13 @@
         </a>
         <ul class="sidenav-second-level collapse" id="collapseProducts">
             <li>
-                <a href="login.html">View Products</a>
+                <a href="/products/viewall">View Products</a>
             </li>
             <li>
-                <a href="register.html">Edit Products</a>
+                <a href="products/create">Add Product</a>
             </li>
             <li>
-                <a href="forgot-password.html">Add Product</a>
+                <a href="/products/lookupProducts">Edit Products</a>
             </li>
         </ul>
     </li>
